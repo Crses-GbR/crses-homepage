@@ -1,0 +1,3 @@
+[submodule "homepage/themes/hugo-fresh"]
+	path = homepage/themes/hugo-fresh
+	url = git@github.com:StefMa/hugo-fresh.git
