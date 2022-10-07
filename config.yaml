@@ -1,6 +1,5 @@
-baseURL: https://crses-gbr.github.io/crses-homepage/
+baseURL: https://crses.de
 languageCode: en-us
-canonifyurls: true
 title: Crses
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
