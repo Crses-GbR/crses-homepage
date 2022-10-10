@@ -49,8 +49,8 @@ params:
     #   - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-    # - title: Details
-    #   url: /features
+    - title: Startseite
+      url: /
     - title: Impressum
       url: /imprint
     # - title: Log in
