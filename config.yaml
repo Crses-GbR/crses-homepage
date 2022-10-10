@@ -1,5 +1,5 @@
 baseURL: https://crses.de
-languageCode: en-us
+languageCode: de-de
 title: Crses
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
@@ -33,11 +33,11 @@ params:
     # Main hero title
     title: C[ou]rses. Manage. Deploy.
     # Hero subtitle (optional)
-    subtitle: Get started with your individual course homepage today
+    subtitle: Starten Sie noch heute mit Ihrer eigenen Kursverwaltungsseite
     # Button text
-    buttontext: More information
+    buttontext: Mehr Informationen
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "/features"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -49,9 +49,9 @@ params:
     #   - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-    - title: Features
-      url: /
-    - title: Imprint
+    # - title: Details
+    #   url: /features
+    - title: Impressum
       url: /imprint
     # - title: Log in
     #   url: /
@@ -67,24 +67,24 @@ params:
     #   button: true
     # Logo (from /images/logos/___.svg)
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Flexibilität & Belastbarkeit
+    subtitle:
     tiles:
-      - title: App builder
-        icon: /icons/sport.png
-        text: This is some explanatory text that is on two rows
-        url: /
-        buttonText: Free trial
-      - title: Cloud integration
+      - title: Plattformunabhängig
+        icon: laptop-globe
+        text: Voller Komfort im Browser von überall
+        url: mailto:info@crses.de
+        buttonText: Jetzt starten
+      - title: Cloud Integration
         icon: laptop-cloud
-        text: This is some explanatory text that is on two rows
-        url: /
-        buttonText: Get started
-      - title: Add-ons & plugins
+        text: Sicherheit durch die Redundanz der Cloud
+        url: mailto:info@crses.de
+        buttonText: Jetzt starten
+      - title: Erweiterbarkeit
         icon: plug-cloud
-        text: This is some explanatory text that is on two rows
-        url: /
-        buttonText: Get started
+        text: Anpassungsfähigkeit auf spezielle Anforderungen
+        url: mailto:info@crses.de
+        buttonText: Jetzt starten
   # section2:
   #   title: You're here because you want the best
   #   subtitle: And we know it
@@ -100,27 +100,27 @@ params:
   #       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
   #       icon: mobile-feed
   section3:
-    title: One platform
-    subtitle: To rule them all
+    title:
+    subtitle:
     image: screenshots/application.jpg
-    buttonText: Get started
-    buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-      - name: Irma Walters
-        quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-        job: Accountant
-        img: 1
-      - name: John Bradley
-        quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-        job: Financial Analyst
-        img: 2
-      - name: Gary Blackman
-        quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-        job: HR Manager
-        img: 3
+    buttonText: Kontakt
+    buttonLink: "mailto:info@crses.de"
+  # section4:
+  #   title: Our Clients love us!
+  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #     - name: Irma Walters
+  #       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #       job: Accountant
+  #       img: 1
+  #     - name: John Bradley
+  #       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #       job: Financial Analyst
+  #       img: 2
+  #     - name: Gary Blackman
+  #       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #       job: HR Manager
+  #       img: 3
   section5: false
   footer:
     # Logo (from /images/logos/___)
@@ -132,13 +132,13 @@ params:
       - link: https://github.com/Crses-GbR
         # Icons are from Font Awesome
         icon: github
-    bulmalogo: true
+    bulmalogo: false
     quicklinks:
       column1:
         title: "Information"
         links:
-          - text: Imprint
-            link: /
+          - text: Impressum
+            link: /imprint
           # - text: Why choose our product?
           #   link: /
           # - text: Compare features
